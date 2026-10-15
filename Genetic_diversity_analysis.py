@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import math
 #1. loading the data set
-df = pd.read_csv(r"Data_set/coi_genetic_diversity_iucn.csv") #¡¡¡¡CHANGE THE LOCATION INTO THE LOCATION YOU HAVE THE FILE!!!!
+df = pd.read_csv(r"Data_set/coi_genetic_diversity_iucn.csv") 
 df.info() #So we know how much the total data we have
 
 #CLEANING
